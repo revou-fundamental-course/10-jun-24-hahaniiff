@@ -1,0 +1,161 @@
+            /* Ini CSS */
+*
+ {
+    margin: 5px;
+    padding: 0;
+    }
+    
+    body {
+        background-image: url("../assets/sky-2076876_1280.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .wrapper {
+        background-color: rgba(160, 159, 159, 0.207);
+        backdrop-filter: blur(50px);
+        border:solid;
+        border-color: gray;
+        border-radius: 50px;
+        border-width: 1px;
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 8px 32px black;
+        padding: 30px;
+        width: max-content;
+        height: max-content;
+        justify-content: center;
+        margin: auto;
+    }
+    .header {
+        background-color: rgba(255, 255, 255, 0.179);
+        display: flex;
+        margin: auto;
+        border-radius: 50px;
+        backdrop-filter: blur(20px);
+        border: 1px solid;
+        border-color: grey;
+        box-shadow: 0px 0px 7px;
+        width: 350px;
+        justify-content: center;
+        padding: 20px;
+        font-size: 40px;
+        font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .input-suhu {
+        margin: auto;
+        width: 500px;
+        height: 180px;
+    }
+    .input-suhu input {
+        display: flex;  
+        text-align: center;
+        width: 100%;;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.776);
+        border:groove ;
+        border-color: rgb(99, 99, 99);
+        color: rgb(20, 1, 1);
+        font-size: 20px;
+        border-radius: 100px;
+    }
+    .input-suhu p{
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        
+    }
+    .button {
+       
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .button #konversi {
+        background-color: rgb(12, 204, 34);
+        border: inset;
+        border-color: rgb(5, 117, 33);
+        border-radius: 25px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(164, 245, 164);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .button #konversi:hover {
+        background-color: rgb(0, 211, 25);
+    }
+    .button #konversi:active {
+        background-color: rgb(136, 255, 140);
+    }
+    .button #reset {
+        background-color: rgb(233, 33, 33);
+        border: inset;
+        border-color: tomato;
+        border-radius: 25px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(250, 168, 168);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .button #reset:hover {
+        background-color: rgb(177, 140, 140);
+    }
+    .button #reset:active {
+        background-color: rgb(255, 161, 161);
+    }
+    .button #reverse {
+        background-color: rgb(7, 154, 168);
+        border: inset;
+        border-color: aquamarine;
+        border-radius: 25px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(149, 250, 247);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .button #reverse:hover {
+        background-color: rgb(0, 196, 213);
+    }
+    .button #reverse:active {
+        background-color: rgb(107, 243, 255);
+    }
+    .kalkulasi p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    .kalkulasi input {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        width: 500px;;
+        height: 100px;
+        background-color: rgba(214, 211, 211, 0.351);
+        border:groove ;
+        border-color: rgb(99, 99, 99);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        border-radius: 50px;
+        font-weight: bold;
+    }
